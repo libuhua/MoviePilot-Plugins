@@ -20,19 +20,19 @@ from app.utils.system import SystemUtils
 
 class CloudStrmIncrement(_PluginBase):
     # 插件名称
-    plugin_name = "云盘Strm生成（增量版）"
+    plugin_name = "云盘Strm生成（增量版）微信"
     # 插件描述
-    plugin_desc = "定时扫描云盘文件，生成Strm文件（增量版）。"
+    plugin_desc = "定时扫描云盘文件，生成Strm文件（增量版）微信。"
     # 插件图标
     plugin_icon = "https://raw.githubusercontent.com/thsrite/MoviePilot-Plugins/main/icons/create.png"
     # 插件版本
     plugin_version = "1.1"
-    # 插件作者
+    # 插件原作者
     plugin_author = "thsrite"
-    # 作者主页
-    author_url = "https://github.com/thsrite"
+    # 作者原主页
+    author_url = "https://github.com/libuhua"
     # 插件配置项ID前缀
-    plugin_config_prefix = "cloudstrm_"
+    plugin_config_prefix = "cloudstrmwechat_"
     # 加载顺序
     plugin_order = 26
     # 可使用的用户级别
